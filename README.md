@@ -5,7 +5,7 @@ Attach Scrollbar Node for cocos2d-x's ScrollView/TableView
 
 ### Installation
 
-Clone this repository and Put `Libs` directory and `Resources/[imags]` on your project:
+Clone this repository and put `Libs` directory and `Resources/[images]` on your project:
 
 ```
 git clone git@github.com:ysugimoto/ScrollBarView.git
@@ -25,7 +25,7 @@ and `scrollViewDidScroll()`, delegate method, call `refresh()` method simply.
 ```
 …
 
-ScrollView *sc = ScrollView.create(Size([width], [height]));
+ScrollView *sc = ScrollView::create(Size([width], [height]));
 bar = ScrollBarView::create(sc, ScrollBarView::BarType::VERTICAL_IN);
 
 …
